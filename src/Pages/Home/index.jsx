@@ -9,7 +9,7 @@ function Home() {
           <h2>Find Study Materials</h2>
           <div className="">
             <input
-              className="h-[35px] text-base"
+              className="h-[35px] text-base text-black"
               type="text"
               id="search-input"
               placeholder="Search for subjects, courses or documents"
