@@ -1,0 +1,179 @@
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Search Section */
+.search-section {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.search-section input {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-section button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-section button:hover {
+  background-color: #555;
+}
+
+/* Featured Documents Section */
+.documents-section {
+  padding: 40px 0;
+}
+
+.documents-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.documents-section h3 {
+  margin-bottom: 20px;
+}
+
+.document-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.document-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.document-card h4 {
+  margin-bottom: 10px;
+}
+
+.document-card p {
+  margin-bottom: 15px;
+}
+
+.document-card button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.document-card button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+footer p {
+  margin: 0;
+}
+/* Login Section */
+.login-section,
+.upload-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.login-section h2,
+.upload-section h2 {
+  margin-bottom: 20px;
+}
+
+.login-section input,
+.upload-section input,
+.upload-section textarea {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.upload-section textarea {
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
