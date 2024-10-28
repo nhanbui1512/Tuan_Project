@@ -30,7 +30,7 @@ function Home() {
 
       <div className="w-[1350px] m-auto flex flex-col gap-4">
         {data.map((item, index) => (
-          <SearchItem key={index} />
+          <SearchItem data={item} key={index} />
         ))}
       </div>
     </div>
